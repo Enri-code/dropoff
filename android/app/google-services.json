@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "505989667991",
+    "firebase_url": "https://dropoff-71f5f-default-rtdb.firebaseio.com",
+    "project_id": "dropoff-71f5f",
+    "storage_bucket": "dropoff-71f5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505989667991:android:5eca485d0dd826dc155dd2",
+        "android_client_info": {
+          "package_name": "com.example.dropoff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5QfZlMstdDyIpvs7dzWaYoyUJs2Jh1kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

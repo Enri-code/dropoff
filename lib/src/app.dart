@@ -15,9 +15,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       title: 'DropOff',
-      theme: ThemeData(
+      theme: ThemeData.dark(
+              // fontFamily: GoogleFonts.anekBangla().fontFamily,
+              )
+          .copyWith(
+        scaffoldBackgroundColor: const Color(0xFF1E1E1E),
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryColor),
-        fontFamily: GoogleFonts.anekBangla().fontFamily,
       ),
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.splashScreen,
