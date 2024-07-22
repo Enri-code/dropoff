@@ -2,10 +2,10 @@ import 'package:dropoff/src/core/contants/app_color.dart';
 import 'package:dropoff/src/core/ui/app_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+// import 'package:fluttertoast/fluttertoast.dart';
 
 class AppToast {
-  static final FToast fToast = FToast();
+//   static final FToast fToast = FToast();
 
   static Widget _toast(_ToastType toastType, String message) => Container(
         width: 300.w,
@@ -35,23 +35,27 @@ class AppToast {
         ),
       );
 
-  static _showToast(BuildContext context, _ToastType type, String message,
-      Duration duration) {
-    fToast.init(context);
-    fToast.removeCustomToast();
-    fToast.showToast(
-      child: _toast(type, message),
-      positionedToastBuilder: (context, widget) {
-        return Positioned(
-          top: MediaQuery.of(context).padding.top + 8.h,
-          left: 0,
-          right: 0,
-          child: widget,
-        );
-      },
-      isDismissable: true,
-      toastDuration: duration,
-    );
+  static _showToast(
+    BuildContext context,
+    _ToastType type,
+    String message,
+    Duration duration,
+  ) {
+//     fToast.init(context);
+//     fToast.removeCustomToast();
+//     fToast.showToast(
+//       child: _toast(type, message),
+//       positionedToastBuilder: (context, widget) {
+//         return Positioned(
+//           top: MediaQuery.of(context).padding.top + 8.h,
+//           left: 0,
+//           right: 0,
+//           child: widget,
+//         );
+//       },
+//       isDismissable: true,
+//       toastDuration: duration,
+//     );
   }
 
   static void warning(BuildContext context, String message,
