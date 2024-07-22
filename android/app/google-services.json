@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "435819548795",
+    "project_id": "thispatch-a21dd",
+    "storage_bucket": "thispatch-a21dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435819548795:android:e29b917747be687210d2de",
+        "android_client_info": {
+          "package_name": "com.example.dropoff"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBORDTUXmFk-C7as1arHw3koF85r0iS0JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
